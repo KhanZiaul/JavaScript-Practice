@@ -8,7 +8,6 @@ console.log(age, year);
 const math=10;
 // math=11;
 console.log(math);
-var Name='megha';
+var girlName='mega';
 
-console.log(Name);
-
+console.log(girlName);
