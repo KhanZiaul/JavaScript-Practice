@@ -11,6 +11,7 @@
 //console.log(typeof score)
 
 //let result=String(20);
+//console.log(typeof result);
 
 //let result=Boolean(100);
 //let result=Boolean(-10)
