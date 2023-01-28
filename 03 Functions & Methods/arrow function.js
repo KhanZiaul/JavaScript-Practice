@@ -25,5 +25,3 @@ const area = radius =>3.1416 * radius**2;
 
 const areaIs = area(5);
 console.log(areaIs);
-
-
