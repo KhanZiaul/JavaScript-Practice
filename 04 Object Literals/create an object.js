@@ -16,3 +16,7 @@ khanZia.lastName = 'mega';
 console.log(khanZia);
 
 console.log(typeof khanZia);
+
+let store = 'firstName';
+
+console.log(khanZia[store]);
