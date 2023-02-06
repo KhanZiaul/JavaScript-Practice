@@ -1,4 +1,4 @@
-// parent, sibling and children
+// parent, sibling and children --------------->
 
 const article = document.querySelector('article');
 

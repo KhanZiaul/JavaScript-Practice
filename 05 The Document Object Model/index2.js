@@ -1,4 +1,4 @@
-// get element by their id
+// get element by their id---------------->
 
 // const idIs = document.getElementById('idOne');
 

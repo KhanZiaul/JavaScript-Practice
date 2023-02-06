@@ -1,4 +1,4 @@
-// getting and setting attributes
+// getting and setting attributes--------------->
 
 const attributes = document.querySelector('a');
 

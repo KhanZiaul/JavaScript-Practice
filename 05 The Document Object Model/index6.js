@@ -1,4 +1,4 @@
-// remove and add classes
+// remove and add classes ---------------------->
 
 // const para = document.querySelector('p');
 

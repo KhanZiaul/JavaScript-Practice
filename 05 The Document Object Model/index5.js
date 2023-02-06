@@ -1,4 +1,4 @@
-// style property in javaScript
+// style property in javaScript---------------->
 
 const styles = document.querySelector('h2');
 
