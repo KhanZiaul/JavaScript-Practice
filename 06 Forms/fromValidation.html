@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form validation</title>
-
     <style>
-
         body{
             background-color: #eee;
         }
@@ -24,7 +22,18 @@
             margin: 10px auto;
             padding: 4px;
         }
-        
+
+        #success{
+            background-color: rgb(123, 242, 38);
+            color: rgb(10, 2, 2);
+        } 
+
+        #error{
+           background-color: rgb(188, 41, 41);
+           color: white;
+        } 
+
+      </style>
 </head>
 <body>
 
@@ -32,7 +41,7 @@
 
       <form class="signup-form">
 
-        <input type="text" name="username" placeholder="username">
+        <input type="text" id="username" placeholder="username">
 
         <input type="submit" value="submit">
 

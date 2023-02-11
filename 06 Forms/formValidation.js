@@ -9,10 +9,9 @@ form.addEventListener('submit', e=> {
     e.preventDefault();
 
     // validation
+    const usernamePattern = /^[a-zA-Z]{6,12}$/;
 
     const username = form.username.value;
-
-    const usernamePattern = /^[a-zA-Z]{6,12}$/;
 
     if(usernamePattern.test(username)){
         //feedback
@@ -22,6 +21,24 @@ form.addEventListener('submit', e=> {
 
     else{
 
-        feedback.textContent ='you should enter a-z|A-Z letters and it should be 6 to 12';
+        feedback.textContent ='You should enter a-z|A-Z letters and it should be 6 to 12';
+    }
+});
+
+// live feedback---------------------
+
+form.username.addEventListener('keyup', e => {
+
+    const usernamePattern = /^[a-zA-Z]{6,12}$/;
+
+    if(usernamePattern.test(e.target.value)){
+
+        form.username.setAttribute('id', 'success')
+
+    }
+
+    else{
+
+        form.username.setAttribute('id','error');
     }
 });
