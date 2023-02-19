@@ -9,7 +9,7 @@ const salePrices = prices.map(function(price){
 
 // console.log(salePrices);
 
-// another example
+// another example by objects
 
 const products = [
     {name:'sobji', price:30},

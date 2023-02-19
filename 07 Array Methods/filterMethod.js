@@ -11,7 +11,7 @@ const oldAges = ages.filter(function(age){
 
 console.log(oldAges);
 
-// second example
+// second example by objects
 
 const persons = [
     {name:'zia',premium : true},

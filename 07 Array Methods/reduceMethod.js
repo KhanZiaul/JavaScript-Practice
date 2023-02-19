@@ -27,7 +27,7 @@ const result = scores.reduce(function(previousValue,currentValue){
 
 // console.log(result);
 
-// another exmaple
+// another exmaple by objects
 
 const personScores = [
 
